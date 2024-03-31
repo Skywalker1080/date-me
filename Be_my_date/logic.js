@@ -26,7 +26,7 @@ button.addEventListener('mouseover', () => {
     para.classList.add('newpara');
     container.insertAdjacentElement('beforeend', para);
     button.removeEventListener('mouseover', mouseOverHandler);
-  }, 2000);
+  }, 10000);
 
   setTimeout(() => {
     para.remove();
