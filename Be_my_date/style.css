@@ -89,3 +89,8 @@ button:hover {
     font-size: 25px;
 }
 
+a {
+    text-decoration: none;
+    color: #D5E0EFff;
+}
+
