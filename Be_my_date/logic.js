@@ -1,15 +1,3 @@
-/*const container = document.querySelector('.container');
-const nobutton = document.querySelector(`button`);
-const containerRect = container.getBoundingClientRect();
-const nobuttonRect = nobutton.getBoundingClientRect();
-
-nobutton.addEventListener('mouseover', () => {
-    const i = Math.floor(Math.random() * (containerRect.width - nobuttonRect.width)) + 1;
-    const j = Math.floor(Math.random() * (containerRect.height - nobuttonRect.height)) + 1;
-    nobutton.style.left = i + 'px';
-    nobutton.style.top = j + 'px'
-});*/
-
 const button = document.querySelector('.nobutton');
 const container = document.querySelector(`.container`);
 
